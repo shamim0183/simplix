@@ -1,0 +1,793 @@
+/**
+font-family: 'Rubik', sans-serif;
+**/
+body{
+    font-family: 'Rubik', sans-serif;
+    background: #E5E5E5;
+    color: #0A1436;
+    font-weight: 300;
+}
+a.nav-link:focus.active {
+    background: #0A1436;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: #0A1436;
+
+}
+a.nav-link:hover{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+a.nav-link:hover svg>path{
+   
+    fill: #ffffff;
+    
+
+}
+.logo{
+    width: 281px;
+}
+.sidenav{
+    height: 100%;
+    
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-right: 5px solid transparent;
+    border-image: linear-gradient(0deg, #3193CD,#00F2F8);
+    border-image-slice: 2;
+}
+.copywrite {
+    position: fixed;
+    bottom: 0;
+    left: 40px;
+}
+p{
+    margin-bottom: 0;
+}
+
+.wrapper{
+    width: 100%;
+}
+.offcanvas-start{
+    width: 280px;
+    
+}
+.offcanvas{
+    border-right: 5px solid red;
+}
+.nav .nav-item .nav-link:hover{
+    background: #0A1436;
+    color: #ffffff;
+}
+.nav .nav-item .nav-link{
+    background: #ffffff;
+    padding: 12px;
+    margin-bottom: 16px;
+    border-radius: 30px;
+    font-weight: 400;
+}
+.nav .nav-item a span{
+    margin-right: 10px;
+}
+
+.nav-link{
+    color: #0A1436;
+}
+
+
+.active:focus{
+    background: #0A1436;
+} 
+button.no-outline {
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 118px;
+    left: 280px;
+} 
+
+/* <!-- DASHBOARD SECTION START --> */
+
+/* <!-- DASHBOARD HEADER SECTION START --> */
+.search-profile-header{
+    background-color: #ffffff;
+    height: 82px;
+}
+.search{
+    border-radius: 30px;
+    background: #E5E5E5;
+    padding: 12px 20px;
+    width: 255px;
+    
+}
+.search input{
+    color: red;
+    
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    background: transparent;
+    width: 100%;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+
+}
+p.author span{
+    font-size: 14px;
+    line-height: 1.2;
+    color: #91929E;
+}
+.author{
+    font-size: 14px;
+    line-height: 1.2;
+    color: #0A1436;
+}
+.search-profile-header{
+    margin-bottom: 40px;
+    
+}
+span.date-logo {
+    background: #C3D4DF;
+    padding: 5px;
+    border-radius: 12px;
+}
+.small-font{
+    font-size: 14px;
+    line-height: 1.2;
+    color: #91929E;
+    margin-bottom: 10px;
+}
+.pay-day-content {
+    padding: 14px 26px 11px 26px;
+}
+/* <!-- DASHBOARD HEADER SECTION END --> */
+
+/* <!-- DASGBOARD MAIN SECTION START --> */
+.payroll-cost-summary {
+    margin-bottom: 24px;
+}
+.bar-chart-bg {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 30px;
+    box-shadow: 4px 4px 18px -2px rgb(231 228 232 / 80%);
+}
+.my-form{
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    list-style: 1.2;
+    font-weight: 500;
+    border: none;
+}
+ .month-dropdown{
+    
+    padding: 15px 16px;;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
+}
+.dashboard-items{
+    margin-bottom: 40px;
+    margin-top: -15px;
+}
+.payroll-background {
+    background: #ffffff;
+    border-radius: 24px;
+    box-shadow: 4px 4px 18px -2px rgba(231, 228, 232, 0.8);
+    
+   
+}
+.payroll-width{
+    margin: 0 16px;
+    width: 180px;
+    padding: 0 16px;
+}
+.TDS-Deductions {
+    border-left: 1px solid #51B3EB;
+    
+}
+.Employees-Net-Pay{
+    border-left: 1px solid #51B3EB;
+}
+.payroll-background span {
+    color: #91929E;
+}
+.pay-day-background{
+    background: #ffffff;
+    border-radius: 24px;
+    box-shadow: 4px 4px 18px -2px rgba(231, 228, 232, 0.8);
+    
+    
+}
+.dashboard-payroll{
+    margin-bottom:52px ;
+}
+.dashboard-main-section{
+    margin-left: 280px;
+}
+/* <!-- DASGBOARD MAIN SECTION END --> */
+
+/* DASHBOARD NEW START */
+.subscription-end {
+    border-left: 1px solid #51B3EB;
+}
+.subscription-statistics{
+    box-shadow: 4px 4px 18px -2px rgba(231, 228, 232, 0.8);
+    background:#ffffff;
+    border-radius: 24px;
+    height: 313px;
+}
+.support{
+    background: #ffffff;
+    box-shadow: 4px 4px 18px -2px rgb(231 228 232 / 80%);
+    border-radius: 24px;
+    
+    height: 313px;
+}
+.support-text{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #0A1436;
+}
+/* DASHBOARD NEW END */
+/* <!-- EMPLOYEE MAIN SECTION START --> */
+.employye-search-icon .search-icon{
+    
+    
+    
+    border-bottom: 1px solid #D0CFD4;
+}
+.employye-search-icon .search-icon input{
+    
+    outline: none;
+    width: 80%;
+    background: transparent;
+}
+.employye-search-icon{
+    padding: 15px 20px;
+    width: 212px;
+    background: #ffffff;
+    border-radius: 14px;
+}
+/* <!-- EMPLOYEE MAIN SECTION END --> */
+a.bg-color {
+    color: #ffffff;
+    background: #0A1436;
+    padding: 13px 17px;
+    border-radius: 14px;
+    font-weight: 500;
+}
+.bg-color span {
+    margin-right: 5px;
+}
+.table td{
+    padding: 22px 29px;
+    
+    
+}
+.table tr{
+    box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
+}
+.empolyee{
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+.action{
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+p.dark-color {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #91929E;
+}
+.page-item .another-color{
+    background: #E0EFF8;
+    
+}
+.start-date{
+    margin-left: 30px;
+}
+/* <!-- DASHBOARD SECTION END --> */
+/* <!-- EMPLOYEE BASIC INFO SECTION START --> */
+.basicinfo{
+    box-shadow: 4px 4px 18px -2px rgba(231, 228, 232, 0.8);
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 40px;
+}
+.basic-label {
+    position: relative;
+}
+.basic-radius {
+   border-radius: 12px;
+   padding: 12px;
+}
+.basic-label label {
+    position: absolute;
+    top: -12px;
+    left: 40px;
+    background: #ffffff;
+    color: #91929E;
+    font-weight: 400;
+    padding: 0 5px;
+}
+label{
+    background: #ffffff;
+    color: #91929E;
+    font-weight: 400;
+    padding: 0 5px;
+}
+.basic-label ::-webkit-input-placeholder {
+   color: #0A1436;
+   font-weight: 400;
+   padding: 14px;
+}
+p.form-payment {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #0074BD;
+    font-weight: 400;
+}
+.colorful-text{
+    color: #0074BD;
+    
+}
+.payslip-color{
+    color: #ffffff;
+    background: #0A1436;
+    padding: 10px 24px;
+    border-radius: 14px;
+    font-weight: 500;
+}
+/* <!-- EMPLOYEE BASIC INFO SECTION START --> */
+/* <!-- EMPLOYEE ADD SECTION START --> */
+.remove-field{
+    color: #F45959;
+}
+.more-field-color{
+    color: #100F2E;
+}
+.border-down {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 32px;
+    margin-bottom: 24px;
+}
+
+/* <!-- EMPLOYEE ADD SECTION END --> */
+/* <!-- EDIT PROFILE SECTION START --> */
+.edit-profile-section{
+    background: #ffffff;
+    border-radius: 24px;
+    position: relative;
+    padding: 38px;
+}
+.bg-image {
+    background-image: url(../image/Gallery.svg);
+    background-repeat: no-repeat;
+    background-position-x: 35em;
+    background-position-y: 10px;
+    cursor: pointer;
+}
+.edit-profile {
+    padding: 40px;
+}
+.edit-profile-section .cross-button {
+    position: absolute;
+    right: 35px;
+    top: 25px;
+    z-index: 11;
+}
+.employee-table{
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+/* <!-- EDIT PROFILE SECTION END --> */
+/* <!-- DASHBOARD PROFILE SECTION START -->  */
+.author-content-info{
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 48px 15px ;
+    position: relative;
+    
+}
+.edit.button {
+    position: absolute;
+    right: 25px;
+    top: 30px;
+}
+.profile-image{
+    border: 2px solid #0074BD;
+    border-radius: 50%;
+}
+.border-space{
+    border-bottom: 1px solid #91929E;
+}
+.profile-table  th {
+    padding: 12px 11px;
+    font-weight: 400;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.profile-table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+.profile-table tr {
+    box-shadow: none;
+}
+.profile-table  td {
+    padding: 12px 11px;
+    text-align: end;
+    font-weight: 500;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.green-text  td{
+    color: #00AF70;
+}
+.red-text td{
+    color: #F45959;
+}
+.table>:not(caption)>*>*{
+    border-bottom-width: 0;
+}
+.green-background{
+    background: rgba(0, 175, 112, 0.15);
+    
+}
+.green-background th {
+   color: #00AF70;
+  
+}
+.green-background td {
+   color: #00AF70;
+   
+}
+.red-background{
+    background: rgba(244, 89, 89, 0.15);
+    
+}
+.red-background th {
+   color: #F45959;
+  
+}
+.red-background td {
+   color: #F45959;
+   
+}
+.blue-background{
+    background: rgba(45, 147, 207, 0.15);
+    
+}
+.blue-background th {
+   color: #0074BD;
+  
+}
+.blue-background td {
+   color: #0074BD;
+   
+}
+/* POPUP START */
+.popub-radius{
+    border-radius: 24px;
+    padding: 40px;
+}
+.popup-header{
+    border-bottom: none;
+    border-top: none;
+}
+.modal-content .basic-radius{
+    border: 1.5px solid #0074BD;
+    margin-top: -14px;
+}
+.add-button{
+    border-radius: 14px;
+    padding: 8px 32px;
+}
+
+/* POPUP END */
+
+/* <!-- DASHBOARD PROFILE SECTION END -->  */
+
+/* ATTEMDANCE SECTION START */
+.attendance-label{
+    background: transparent;
+    color: #000000;
+}
+.attendace-details{
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 18px 34px;
+}
+.green-btn {
+    background: #00AF70;
+    padding: 13px 35px;
+    border-radius: 14px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.light-btn {
+    background: #E3E3E3;
+    padding: 13px 35px;
+    border-radius: 14px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.working-days {
+    padding: 24px 17px;
+    box-shadow: 4px 4px 18px -2px rgb(231 228 232 / 80%);
+    border-radius: 20px;
+    width: 120px;
+}
+.blue-text{
+    color: #0074BD;
+}
+.red-text{
+    color: #F45959;
+}
+.small-font-size{
+    font-size: 14px;
+    line-height: 1.2;
+    color: #91929E;
+}
+.green-border{
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+.check-out{
+    margin-left: 10px;
+}
+/* ATTEMDANCE SECTION END */
+/* LOGIN SECTION START */
+.login-btn{
+    background: #ffffff;
+    color: #000000;
+    padding: 12px 34px;
+    margin-left: 50px;
+    border-radius: 14px;
+    
+}
+.navy-blue-bg{
+    background-color: #0A1436;
+    
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #ffffff;
+    border-radius: 14px ;
+    
+    margin-left: 50px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ffffff;
+    
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: #ffffff;
+}
+.payroll-text{
+    font-size: 60px;
+    line-height: 1.2;
+}
+.simplix-login{
+    padding: 70px;
+    border-radius: 16px;
+    background: #ffffff;
+    width: 518px;
+}
+.simplix-logo {
+    width: 269px;
+}
+.login-button{
+    padding: 12px 34px;
+    border-radius: 14px;
+    background: #0A1436;
+    color: #ffffff;
+    
+}
+.payroll-wrap {
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+/* LOGIN SECTION END */
+
+/* MEDIA QUERY */
+@media screen and (max-width: 992px) {
+    .sidenav{
+        display: none;
+    }
+    .h1 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    
+    .h3 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .payroll-cost {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .payroll-width {
+        width: 180px;
+        
+        margin: 0;
+    }
+    .payroll-background {
+        margin-bottom: 40px;
+    }
+    p.small-font {
+        font-size: 12px;
+    }
+    .dashboard-main-section{
+        margin-left: 0;
+    }
+    .pay-day-background {
+        margin-bottom: 40px;
+    }
+    .arrow-btn{
+        display: none;
+    }
+   
+    a.bg-color{
+        padding: 8px 10px;
+    }
+    .employye-search-icon {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .month-dropdown {
+        margin-bottom: 20px;
+    }
+    p.form-payment{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    a.payslip-color {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    .basic-label label{
+        font-size: 10px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .basic-radius{
+        font-size: 12px;
+    }
+   
+    .h5 {
+        font-size: 12px;
+    }
+    .circlechart {
+        margin: 0 auto;
+    }
+    .circlechart-wrap{
+        flex-direction: column;
+        display: flex;
+    }
+    p.h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .working-times{
+        flex-direction: column;
+    }
+    .attendance-check{
+        flex-direction: column;
+    }
+    .working-days{
+        width: 100%;
+    }
+    .check-out{
+        margin-left: 0;
+    }
+    .attendace-content {
+        flex-direction: column;
+        display: flex;
+    }
+    .attendace-text{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    form.attendance-form {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+  }
+@media screen and (max-width: 375px) {
+    .sidenav{
+        display: none;
+    }
+    .h1 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .search{
+        width: 55px;
+    }
+    .h3 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .payroll-background {
+        margin-bottom: 40px;
+    }
+    p.small-font {
+        font-size: 12px;
+    }
+    .dashboard-main-section{
+        margin-left: 0;
+    }
+    .search{
+        width: 55px;
+    }
+    .working-times{
+        flex-direction: column;
+    }
+    .attendance-check{
+        flex-direction: column;
+    }
+    .working-days{
+        width: 100%;
+    }
+    .check-out{
+        margin-left: 0;
+    }
+    .attendace-content {
+        flex-direction: column;
+        display: flex;
+    }
+    .attendace-text{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    form.attendance-form {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    p.start-date {
+        margin-left: 14px;
+        font-size: 10px;
+    }
+    p.h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .circlechart {
+        margin: 0 auto;
+    }
+    .circlechart-wrap{
+        flex-direction: column;
+        display: flex;
+    }
+    .start-date{
+        margin-left: 0;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        margin-left: 0;
+    }
+  }
